@@ -7,8 +7,6 @@ import pytesseract
 import os
 import glob
 
-
-
 k={}
 images = [keras_ocr.tools.read(img) for img in ["image_path"]]
 pipeline = keras_ocr.pipeline.Pipeline()
