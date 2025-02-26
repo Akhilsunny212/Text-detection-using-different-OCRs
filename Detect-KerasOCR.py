@@ -18,5 +18,4 @@ Bounding_boxes = df["Bounding_Boxes"].values
 text1=df["Text"].values
 k["test"]=list(text1)
 
-
 cv2.imwrite("image.jpg",keras_ocr.tools.drawBoxes(cv2.imread("image_path"),Bounding_boxes,thickness=1))
